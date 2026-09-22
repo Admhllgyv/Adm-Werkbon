@@ -1274,7 +1274,6 @@ with tab_entry:
             st.markdown("---")
     else:
         st.info("Bu hafta için henüz aktif proje kaydı bulunmuyor.")
-      /* 📱 MOBİLDE SAĞDA GÜVENLİ KAYDIRMA ALANI */
 @media (max-width: 768px) {
 
     .block-container {
