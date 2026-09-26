@@ -999,4 +999,4 @@ st.info("Lütfen önce bir proje seçin.")
 
 --- TAMAMEN OTOMATİK KAYIT ---
 st.session_state.weekly_data[current_week_key] = {"entries": all_entries, "expenses": all_expenses}
-d
+
