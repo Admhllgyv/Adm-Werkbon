@@ -8,7 +8,7 @@ import os
 
 # Supabase Bağlantı Bilgilerini Buraya Gir
 # (Eski kodundaki bağlantı cümlesini buraya yapıştır)
-DB_URL = "postgresql://postgres.iowaxfgqfehdentzyipq:SIFRENIZ@aws-1-eu-west-1.pooler.supabase.co:5432/postgres"
+DB_URL = "https://iowaxfgqfehdentzyipq.supabase.co/auth/v1/.well-known/jwks.json"
 
 st.title("🚀 Veri Dönüştürücü (Android'e Geçiş)")
 st.write("Bu butona basarak eski verilerinizi Android uygulamasının okuyabileceği formata çevirebilirsiniz.")
