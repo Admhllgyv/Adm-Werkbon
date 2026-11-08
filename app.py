@@ -23,7 +23,7 @@ def get_db_connection_pool():
         elif "postgres_url" in st.secrets:
             url = st.secrets["postgres_url"]
         else:
-            url = "postgresql://postgres.iowaxfgqfehdentzyipq:sifreniz@aws-1-eu-west-1.pooler.supabase.co:5432/postgres"
+            url = "postgresql://postgres.iowaxfgqfehdentzyipq:18_Mayis1987@aws-1-eu-west-1.pooler.supabase.co:5432/postgres"
         return url
     except Exception:
         return None
